@@ -7,7 +7,6 @@
 //% block="test_pins" color="#AA278D"
 
 namespace test_pins {
-
     //% weight=20
     //% blockId=digital_writepin
     //% block="digital write pin |%tname| to |%tvalue"
@@ -16,8 +15,8 @@ namespace test_pins {
     //% tvalue.defl=0
     //% tvalue.min=0
     //% tvalue.max=1
-    export function digital_writepin(tname: DigitalPin, tvalue: number): void {
-        pins.digitalWritePin(tname, tvalue)
-        
+        export function digital_writepin(tname: DigitalPin, tvalue: number): void {
+            pins.digitalWritePin(tname, tvalue)
+            
         }
 }
